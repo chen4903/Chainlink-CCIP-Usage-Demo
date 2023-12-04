@@ -18,6 +18,8 @@ Chainlink CCIP [doc](https://docs.chain.link/ccip/supported-networks/testnet#eth
 
 # usage
 
+Preparation: `npm i -D` to install dependencies
+
 ## send_message
 
 run the project to make it: send "`Hello CCIP`" from bnb test network to sepolia test network
