@@ -16,7 +16,7 @@ Chainlink CCIP [doc](https://docs.chain.link/ccip/supported-networks/testnet#eth
 - BnM sepolia test network: `0xFd57b4ddBf88a4e07fF4e34C487b99af2Fe82a05`
 - BnM bnb test network: `0xbFA2ACd33ED6EEc0ed3Cc06bF1ac38d22b36B9e9`
 
-# usage
+# Usage
 
 Preparation: `npm i -D` to install dependencies
 
@@ -66,11 +66,11 @@ complete the above steps, continue to send to CA from sepolia to bnb:
 
 3. `npx hardhat run .\scripts\send_erc20\step8_CA_withdraw_BnM_in_bnb.js --network bnbtest`
 
-Then u will find that u have 5 BnM in bnb test network wallet while u lose 2 BnM in sepolia test network.
+Then u will find that u have 2 BnM in bnb test network wallet while u lose 2 BnM in sepolia test network.
 
-# summarize
+# Summarize
 
-As of now (December 2, 2023), I have identified the following characteristics
+As of now (December 2, 2023), I think there are the following characteristics
 
 - There are fewer supported main chain CCIPs: Arb, Base, Polygon. (Optimism doesn't support, but it is support before)
 - every cross chain tx costs 20 minutes approximately, I think it can be faster
